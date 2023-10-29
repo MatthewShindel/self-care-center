@@ -1,8 +1,66 @@
+
+html {
+    background: linear-gradient(#134d71,#78a7c6,#f7e4bf);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family:'Quicksand', sans-serif;
+    text-align: center;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+#bell{
+    height: 10%;
+    width: 10%;
+}
+
+#choose-message{
+    color: black;
+    background-color: #ffffff;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+}
+
+.submit-button{
+    color: #ffffff;
+    background-color: #134d71;
+    padding: 0.5em 2em;
+    border-radius:5px;
+    border: none;
+}
+
+.messages-section{
+    background-color: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 85%;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+p {
+    color: black;
+
+}
+
+
 /* font-family: 'Quicksand', sans-serif;
 COLORS
 light-yellow - #f7e4bf;
 light-blue - #78a7c6;
 dark-blue - #134d71;
 white - #ffffff;
-black - #000000;
-*/
+black - #000000; */
