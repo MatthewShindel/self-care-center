@@ -19,24 +19,42 @@ html {
     width: 10%;
 }
 
+h1{
+    margin-bottom: 3em;
+}
+
 #choose-message{
     color: black;
     background-color: #ffffff;
-    width: 60%;
+    width: 40%;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 20px;    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 90px;
 }
 
-.submit-button{
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.radio-button{
+    display: inline;
+}
+
+
+button{
     color: #ffffff;
     background-color: #134d71;
     padding: 0.5em 2em;
     border-radius:5px;
     border: none;
+    font-size: large;
+    font-weight: 100;
 }
+
 
 .messages-section{
     background-color: #ffffff;
@@ -46,13 +64,14 @@ html {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
-    width: 85%;
+    width: 60%;
     padding: 40px;
     border-radius: 20px;
 }
 
-p {
+h2 {
     color: black;
+    font-weight: 500;
 
 }
 
